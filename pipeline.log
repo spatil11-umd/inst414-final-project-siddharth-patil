@@ -1,0 +1,49 @@
+2025-08-13 21:31:59,268 - INFO - Pipeline started
+2025-08-13 21:31:59,268 - INFO - === Step 1: Extract ===
+2025-08-13 21:32:08,366 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-13 21:32:08,366 - INFO - === Step 2: Transform ===
+2025-08-13 21:32:44,233 - INFO - Transformation completed. 28326 rows processed.
+2025-08-13 21:32:44,233 - INFO - === Step 3: Analyze ===
+2025-08-13 21:33:10,072 - INFO - Analysis completed successfully.
+2025-08-13 21:33:10,174 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-13 21:33:10,174 - INFO - === Step 4: Evaluate ===
+2025-08-13 21:33:14,573 - INFO - Evaluation completed successfully.
+2025-08-13 21:33:14,574 - INFO - === Step 5: Visualize ===
+2025-08-13 21:33:28,844 - INFO - Visualization completed successfully.
+2025-08-13 21:33:28,844 - INFO - Pipeline complete!
+2025-08-13 21:41:22,846 - INFO - Pipeline started
+2025-08-13 21:41:22,846 - INFO - === Step 1: Extract ===
+2025-08-13 21:41:22,846 - INFO - === Step 1: Extract ===
+2025-08-13 21:41:32,618 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-13 21:41:32,618 - INFO - === Step 2: Transform ===
+2025-08-13 21:41:32,656 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-13 21:41:32,658 - INFO - === Step 2: Transform ===
+2025-08-13 21:42:34,317 - INFO - Transformation completed. 28326 rows processed.
+2025-08-13 21:42:34,317 - INFO - Transformation completed. 28326 rows processed.
+2025-08-13 21:42:34,317 - INFO - === Step 3: Analyze ===
+2025-08-13 21:42:34,317 - INFO - === Step 3: Analyze ===
+2025-08-13 21:43:36,079 - INFO - Analysis completed successfully.
+2025-08-13 21:43:36,273 - INFO - Analysis completed successfully.
+2025-08-13 21:43:36,648 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-13 21:43:36,648 - INFO - === Step 4: Evaluate ===
+2025-08-13 21:43:36,648 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-13 21:43:36,648 - INFO - === Step 4: Evaluate ===
+2025-08-13 21:47:34,483 - INFO - Evaluation completed successfully.
+2025-08-13 21:47:35,491 - INFO - === Step 5: Visualize ===
+2025-08-13 21:51:05,821 - INFO - Visualization completed successfully.
+2025-08-13 21:51:05,821 - INFO - Pipeline complete!
+2025-08-13 21:52:50,196 - INFO - Visualization completed successfully.
+2025-08-13 21:52:50,196 - INFO - Pipeline complete!
+2025-08-13 22:03:36,183 - INFO - Pipeline started
+2025-08-13 22:03:36,183 - INFO - === Step 1: Extract ===
+2025-08-13 22:03:45,596 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-13 22:03:45,596 - INFO - === Step 2: Transform ===
+2025-08-13 22:04:24,728 - INFO - Transformation completed. 28326 rows processed.
+2025-08-13 22:04:24,728 - INFO - === Step 3: Analyze ===
+2025-08-13 22:04:34,858 - INFO - Analysis completed successfully.
+2025-08-13 22:04:34,996 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-13 22:04:34,996 - INFO - === Step 4: Evaluate ===
+2025-08-13 22:04:38,763 - INFO - Evaluation completed successfully.
+2025-08-13 22:04:38,763 - INFO - === Step 5: Visualize ===
+2025-08-13 22:04:43,588 - INFO - Visualization completed successfully.
+2025-08-13 22:04:43,588 - INFO - Pipeline complete!

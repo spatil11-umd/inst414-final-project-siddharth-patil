@@ -20,18 +20,9 @@ def transform_data():
         print("No CSV files found in data/extracted/. Please run extract first.")
         return
     
-    # Prompt user to select a file for transformation
-    print("Available files to transform:")
-    for i, f in enumerate(files):
-        print(f"{i+1}. {f}")
-    
-    choice = input(f"Select a file number (1-{len(files)}): ")
-    try:
-        idx = int(choice) - 1
-        filename = files[idx]
-    except (ValueError, IndexError):
-        print("Invalid selection. Exiting.")
-        return
+    # Automatically select the first (or only) file
+    filename = files[0]
+    print(f"Automatically selected file to transform: {filename}")
     
     raw_path = os.path.join(extracted_folder, filename)
     df = pd.read_csv(raw_path)
@@ -53,16 +44,14 @@ def transform_data():
     print(df.duplicated().sum())
     
     # Save missing values summary for review
+    os.makedirs('data/processed', exist_ok=True)
     missing_df.to_csv('data/processed/missing_values_summary.csv')
     print("Saved missing values summary to data/processed/missing_values_summary.csv")
 
-    # Remove duplicates
-    df = df.drop_duplicates()
+    # Remove duplicates and drop rows with missing values
+    df = df.drop_duplicates().dropna()
 
-    # Drop rows with missing values (customize if needed)
-    df = df.dropna()
-
-    # Clean string columns by stripping whitespace
+    # Clean string columns
     str_cols = df.select_dtypes(include='object').columns
     for col in str_cols:
         df[col] = df[col].str.strip()
@@ -73,36 +62,35 @@ def transform_data():
         if col in df.columns:
             df[col] = df[col].astype('category')
 
-    # Rename columns for clarity and consistency
+    # Rename columns for clarity
     rename_map = {
         'NAICS2_Name': 'Industry_Sector',
         'TOTAL10': 'Total_Employees',
-        # add more renames here as needed
     }
     df = df.rename(columns=rename_map)
 
     # Create new percentage variable for White employees if data present
     if 'WHT10' in df.columns and 'TOTAL10' in df.columns:
-        df['Pct_White'] = df['WHT10'] / df['TOTAL10'] * 100
+        df['Pct_White'] = df['WHT10'] / df['Total_Employees'] * 100
 
-    # Display and save summary statistics for numeric columns
+    # Summary statistics for numeric columns
     print("\nSummary statistics for numeric columns:")
     num_summary = df.describe()
     print(num_summary)
     num_summary.to_csv('data/processed/numeric_summary_stats.csv')
     print("Saved numeric summary statistics to data/processed/numeric_summary_stats.csv")
 
-    # Output value counts for categorical columns and save to CSV
+    # Value counts for categorical columns
     print("\nValue counts for categorical columns:")
     for col in categorical_cols:
         if col in df.columns:
             print(f"\nColumn: {col}")
             counts = df[col].value_counts()
-            print(counts.head(10))  # show top 10
+            print(counts.head(10))
             counts.to_csv(f'data/processed/value_counts_{col}.csv')
             print(f"Saved value counts for {col} to data/processed/value_counts_{col}.csv")
 
-    # Generate histograms for numeric columns and save plots
+    # Histograms for numeric columns
     numeric_cols = df.select_dtypes(include='number').columns
     hist_folder = 'data/processed/histograms'
     os.makedirs(hist_folder, exist_ok=True)
@@ -115,7 +103,7 @@ def transform_data():
         plt.close()
     print(f"Saved histograms for numeric columns to {hist_folder}/")
 
-    # Save the cleaned and transformed data for downstream use
+    # Save the cleaned and transformed data
     processed_path = os.path.join('data', 'processed', f'transformed_{filename}')
     df.to_csv(processed_path, index=False)
     print(f"Cleaned data saved to {processed_path}")

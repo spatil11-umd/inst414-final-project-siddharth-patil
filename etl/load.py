@@ -4,6 +4,8 @@ This script lists CSV files in the 'data/processed' directory,
 prompts the user to select one of the files, and loads the selected
 file into a pandas DataFrame for further analysis.
 
+load.py
+
 """
 
 import os
@@ -28,18 +30,23 @@ def select_file(files):
             print("Invalid choice. Try again.")
 
 def load_data():
-    # Load a processed CSV file chosen by the user
-    files = list_processed_files()
+    # List CSV files in processed folder
+    processed_dir = os.path.join('data', 'processed')
+    files = [f for f in os.listdir(processed_dir) if f.endswith('.csv')]
+    
     if not files:
         print("No processed CSV files found in data/processed/. Please run transform first.")
         return None
+
+    # Automatically pick the first file
+    filename = files[0]
+    print(f"Automatically loading file: {filename}")
     
-    filename = select_file(files)
-    file_path = os.path.join('data', 'processed', filename)
-    
+    file_path = os.path.join(processed_dir, filename)
     df = pd.read_csv(file_path)
     print(f"\nLoaded data from {file_path} - shape: {df.shape}")
     return df
+
 
 if __name__ == "__main__":
     load_data()

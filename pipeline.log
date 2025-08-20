@@ -216,3 +216,16 @@ TOMRF1_2              0        0.000000
 2025-08-20 17:28:55,334 - INFO - === Step 5: Visualize ===
 2025-08-20 17:28:56,493 - INFO - Visualization completed successfully.
 2025-08-20 17:28:56,494 - INFO - Pipeline complete!
+2025-08-20 19:08:07,553 - INFO - Pipeline started
+2025-08-20 19:08:07,553 - INFO - === Step 1: Extract ===
+2025-08-20 19:08:12,139 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-20 19:08:12,139 - INFO - === Step 2: Transform ===
+2025-08-20 19:08:31,779 - INFO - Transformation completed. 28326 rows processed.
+2025-08-20 19:08:31,779 - INFO - === Step 3: Analyze ===
+2025-08-20 19:08:45,522 - INFO - Analysis completed successfully.
+2025-08-20 19:08:45,562 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-20 19:08:45,562 - INFO - === Step 4: Evaluate ===
+2025-08-20 19:08:48,814 - INFO - Evaluation completed successfully.
+2025-08-20 19:08:48,815 - INFO - === Step 5: Visualize ===
+2025-08-20 19:08:52,465 - INFO - Visualization completed successfully.
+2025-08-20 19:08:52,465 - INFO - Pipeline complete!

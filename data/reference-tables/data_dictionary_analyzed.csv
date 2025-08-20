@@ -278,4 +278,6 @@ Pct_White,float64,Percentage of White employees (WHT10 / Total_Employees * 100)
 Pct_Black,float64,Percentage of Black employees (BLKT10 / Total_Employees * 100)
 Pct_Hispanic,float64,Percentage of Hispanic employees (HISPT10 / Total_Employees * 100)
 Pct_Asian,float64,Percentage of Asian employees (ASIANT10 / Total_Employees * 100)
+Pct_Minority,float64,Auto-generated column for Pct_Minority
+Diversity_Index,float64,Auto-generated column for Diversity_Index
 Cluster,int32,KMeans cluster assignment based on demographic percentages

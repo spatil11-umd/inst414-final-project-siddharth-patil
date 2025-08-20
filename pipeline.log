@@ -47,3 +47,146 @@
 2025-08-13 22:04:38,763 - INFO - === Step 5: Visualize ===
 2025-08-13 22:04:43,588 - INFO - Visualization completed successfully.
 2025-08-13 22:04:43,588 - INFO - Pipeline complete!
+2025-08-19 17:26:22,030 - INFO - Pipeline started
+2025-08-19 17:26:22,030 - INFO - === Step 1: Extract ===
+2025-08-19 17:26:33,238 - ERROR - Extraction failed: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-08-19 17:42:25,030 - INFO - Pipeline started
+2025-08-19 17:42:25,030 - INFO - === Step 1: Extract ===
+2025-08-19 17:42:34,963 - ERROR - Extraction failed: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-08-19 18:19:05,449 - INFO - Pipeline started
+2025-08-19 18:19:05,449 - INFO - === Step 1: Extract ===
+2025-08-19 18:19:20,565 - ERROR - Extraction failed: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-08-19 18:32:11,461 - INFO - Pipeline started
+2025-08-19 18:32:11,461 - INFO - === Step 1: Extract ===
+2025-08-19 18:32:22,917 - ERROR - Extraction failed: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-08-19 18:48:16,485 - INFO - Pipeline started
+2025-08-19 18:48:16,485 - INFO - === Step 1: Extract ===
+2025-08-19 19:53:20,862 - INFO - Pipeline started
+2025-08-19 19:53:20,873 - INFO - === Step 1: Extract ===
+2025-08-19 19:57:24,416 - INFO - Pipeline started
+2025-08-19 19:57:24,416 - INFO - === Step 1: Extract ===
+2025-08-19 20:41:49,822 - INFO - Pipeline started
+2025-08-19 20:41:49,822 - INFO - === Step 1: Extract ===
+2025-08-19 20:41:49,869 - ERROR - Extraction failed: File is not a zip file
+2025-08-19 20:43:07,838 - INFO - Pipeline started
+2025-08-19 20:43:07,838 - INFO - === Step 1: Extract ===
+2025-08-19 20:43:07,841 - ERROR - Local Excel file not found at data\extracted\EEO1_2023_PUF.csv. Please download it manually from EEOC website.
+2025-08-19 20:43:07,841 - ERROR - Extraction failed: object of type 'NoneType' has no len()
+2025-08-19 20:46:29,190 - INFO - Pipeline started
+2025-08-19 20:46:29,190 - INFO - === Step 1: Extract ===
+2025-08-19 20:46:29,190 - ERROR - Local Excel file not found at data\extracted\EEO1_2023_PUF.xlsx. Please download it manually from EEOC website.
+2025-08-19 20:46:29,190 - ERROR - Extraction failed: object of type 'NoneType' has no len()
+2025-08-19 20:50:05,762 - INFO - Pipeline started
+2025-08-19 20:50:05,762 - INFO - === Step 1: Extract ===
+2025-08-19 20:50:05,762 - ERROR - Local Excel file not found at data\extracted\EEO1_2023_PUF.xlsx. Please download it manually from EEOC website.
+2025-08-19 20:50:05,762 - ERROR - Extraction failed. Local file missing.
+2025-08-19 20:53:55,484 - INFO - Pipeline started
+2025-08-19 20:53:55,484 - INFO - === Step 1: Extract ===
+2025-08-19 20:53:55,484 - ERROR - Local Excel file not found at data\extracted\EEO1_2023_PUF.csv. Please download it manually from EEOC website.
+2025-08-19 20:53:55,484 - ERROR - Extraction failed. Local file missing.
+2025-08-19 20:55:28,500 - INFO - Pipeline started
+2025-08-19 20:55:28,500 - INFO - === Step 1: Extract ===
+2025-08-19 20:55:28,548 - ERROR - Failed to read local Excel file: Excel file format cannot be determined, you must specify an engine manually.
+2025-08-19 20:55:28,548 - ERROR - Extraction failed. Local file missing.
+2025-08-19 20:56:55,745 - INFO - Pipeline started
+2025-08-19 20:56:55,745 - INFO - === Step 1: Extract ===
+2025-08-19 20:56:55,745 - ERROR - Local Excel file not found at data\extracted\eeoc_data.csv. Please download it manually from EEOC website.
+2025-08-19 20:56:55,745 - ERROR - Extraction failed. Local file missing.
+2025-08-19 20:58:36,361 - INFO - Pipeline started
+2025-08-19 20:58:36,361 - INFO - === Step 1: Extract ===
+2025-08-19 20:58:36,362 - ERROR - Local Excel file not found at data\extracted\eeoc_data.csv. Please download it manually from EEOC website.
+2025-08-19 20:58:36,362 - ERROR - Extraction failed. Local file missing.
+2025-08-19 21:00:41,430 - INFO - Pipeline started
+2025-08-19 21:00:41,430 - INFO - === Step 1: Extract ===
+2025-08-19 21:00:42,402 - INFO - Copied data\EEO1_2023_PUF.csv to data\extracted\eeoc_data.csv
+2025-08-19 21:00:45,849 - INFO - Loaded 105613 rows from data\extracted\eeoc_data.csv
+2025-08-19 21:00:45,849 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-19 21:00:45,849 - INFO - === Step 2: Transform ===
+2025-08-19 21:00:45,849 - ERROR - Transformation failed: transform_data() takes 0 positional arguments but 1 was given
+2025-08-19 21:04:38,928 - INFO - Pipeline started
+2025-08-19 21:04:38,928 - INFO - === Step 1: Extract ===
+2025-08-19 21:04:38,968 - INFO - Copied data\EEO1_2023_PUF.csv to data\extracted\eeoc_data.csv
+2025-08-19 21:04:41,941 - INFO - Loaded 105613 rows from data\extracted\eeoc_data.csv
+2025-08-19 21:04:41,941 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-19 21:04:41,941 - INFO - === Step 2: Transform ===
+2025-08-19 21:04:41,941 - INFO - Starting data transformation
+2025-08-19 21:04:41,941 - INFO - Automatically selected file to transform: eeoc_data.csv
+2025-08-19 21:04:45,047 - INFO - Dataset shape: (105613, 275)
+2025-08-19 21:04:46,173 - INFO - Missing values summary:
+           MissingCount  MissingPercent
+Nation                0        0.000000
+Region             3881        3.674737
+Division           4308        4.079043
+State              5241        4.962457
+CBSA              16352       15.482942
+...                 ...             ...
+HISPF1_2              0        0.000000
+ASIANF1_2             0        0.000000
+AIANF1_2              0        0.000000
+NHOPIF1_2             0        0.000000
+TOMRF1_2              0        0.000000
+
+[275 rows x 2 columns]
+2025-08-19 21:04:46,235 - INFO - Saved missing values summary to data/processed/missing_values_summary.csv
+2025-08-19 21:04:50,667 - ERROR - Data transformation failed: unsupported operand type(s) for /: 'str' and 'int'
+2025-08-19 21:04:50,709 - ERROR - Transformation failed: Transformation returned no data
+2025-08-19 21:13:52,965 - INFO - Pipeline started
+2025-08-19 21:13:52,965 - INFO - === Step 1: Extract ===
+2025-08-19 21:18:13,980 - INFO - Pipeline started
+2025-08-19 21:18:13,980 - INFO - === Step 1: Extract ===
+2025-08-19 21:20:39,950 - INFO - Pipeline started
+2025-08-19 21:20:39,950 - INFO - === Step 1: Extract ===
+2025-08-19 21:20:39,950 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'data\\extracted\\eeoc_data.xlsx'
+2025-08-19 21:27:15,743 - INFO - Pipeline started
+2025-08-19 21:27:15,743 - INFO - === Step 1: Extract ===
+2025-08-19 21:27:15,743 - INFO - === Step 1: Extract ===
+2025-08-19 21:27:15,792 - INFO - Copied data\EEO1_2023_PUF.csv to data\extracted\eeoc_data.csv
+2025-08-19 21:27:15,792 - INFO - Extraction completed. 28 rows loaded.
+2025-08-19 21:27:15,792 - INFO - === Step 2: Transform ===
+2025-08-19 21:27:15,792 - INFO - Starting data transformation
+2025-08-19 21:27:15,792 - INFO - Automatically selected file to transform: eeoc_data.csv
+2025-08-19 21:27:18,801 - INFO - Dataset shape: (105613, 275)
+2025-08-19 21:27:19,794 - INFO - Missing values summary:
+           MissingCount  MissingPercent
+Nation                0        0.000000
+Region             3881        3.674737
+Division           4308        4.079043
+State              5241        4.962457
+CBSA              16352       15.482942
+...                 ...             ...
+HISPF1_2              0        0.000000
+ASIANF1_2             0        0.000000
+AIANF1_2              0        0.000000
+NHOPIF1_2             0        0.000000
+TOMRF1_2              0        0.000000
+
+[275 rows x 2 columns]
+2025-08-19 21:27:19,796 - INFO - Saved missing values summary to data/processed/missing_values_summary.csv
+2025-08-19 21:27:23,617 - ERROR - Data transformation failed: unsupported operand type(s) for /: 'str' and 'int'
+2025-08-19 21:27:23,653 - ERROR - Transformation failed: Transformation returned no data
+2025-08-19 21:38:11,473 - INFO - Pipeline started
+2025-08-19 21:38:11,473 - INFO - === Step 1: Extract ===
+2025-08-19 21:38:14,691 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-19 21:38:14,691 - INFO - === Step 2: Transform ===
+2025-08-19 21:38:30,675 - INFO - Transformation completed. 28326 rows processed.
+2025-08-19 21:38:30,675 - INFO - === Step 3: Analyze ===
+2025-08-19 21:38:35,961 - INFO - Analysis completed successfully.
+2025-08-19 21:38:35,975 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-19 21:38:35,975 - INFO - === Step 4: Evaluate ===
+2025-08-19 21:38:38,141 - INFO - Evaluation completed successfully.
+2025-08-19 21:38:38,141 - INFO - === Step 5: Visualize ===
+2025-08-19 21:38:39,921 - INFO - Visualization completed successfully.
+2025-08-19 21:38:39,921 - INFO - Pipeline complete!
+2025-08-19 22:00:01,807 - INFO - Pipeline started
+2025-08-19 22:00:01,807 - INFO - === Step 1: Extract ===
+2025-08-19 22:00:08,712 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-19 22:00:08,712 - INFO - === Step 2: Transform ===
+2025-08-19 22:00:20,962 - INFO - Transformation completed. 28326 rows processed.
+2025-08-19 22:00:20,962 - INFO - === Step 3: Analyze ===
+2025-08-19 22:00:26,448 - INFO - Analysis completed successfully.
+2025-08-19 22:00:26,462 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-19 22:00:26,462 - INFO - === Step 4: Evaluate ===
+2025-08-19 22:00:28,620 - INFO - Evaluation completed successfully.
+2025-08-19 22:00:28,620 - INFO - === Step 5: Visualize ===
+2025-08-19 22:00:29,736 - INFO - Visualization completed successfully.
+2025-08-19 22:00:29,736 - INFO - Pipeline complete!

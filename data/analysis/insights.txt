@@ -1,0 +1,7 @@
+Key DEI Insights:
+- Average % White: 58.2%
+- Average % Minority: 41.8%
+- Average Diversity Index: 0.51
+- Cluster profiles saved in 'cluster_summary.csv'
+- Region diversity ranking saved in 'comparative_region_ranked.csv'
+- Predicted vs actual diversity saved in 'predicted_diversity.csv'

@@ -190,3 +190,29 @@ TOMRF1_2              0        0.000000
 2025-08-19 22:00:28,620 - INFO - === Step 5: Visualize ===
 2025-08-19 22:00:29,736 - INFO - Visualization completed successfully.
 2025-08-19 22:00:29,736 - INFO - Pipeline complete!
+2025-08-20 17:15:10,602 - INFO - Pipeline started
+2025-08-20 17:15:10,602 - INFO - === Step 1: Extract ===
+2025-08-20 17:15:16,581 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-20 17:15:16,581 - INFO - === Step 2: Transform ===
+2025-08-20 17:15:51,799 - INFO - Transformation completed. 28326 rows processed.
+2025-08-20 17:15:51,800 - INFO - === Step 3: Analyze ===
+2025-08-20 17:16:05,354 - INFO - Analysis completed successfully.
+2025-08-20 17:16:05,377 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-20 17:16:05,378 - INFO - === Step 4: Evaluate ===
+2025-08-20 17:16:08,481 - INFO - Evaluation completed successfully.
+2025-08-20 17:16:08,482 - INFO - === Step 5: Visualize ===
+2025-08-20 17:16:12,997 - INFO - Visualization completed successfully.
+2025-08-20 17:16:12,997 - INFO - Pipeline complete!
+2025-08-20 17:28:30,320 - INFO - Pipeline started
+2025-08-20 17:28:30,320 - INFO - === Step 1: Extract ===
+2025-08-20 17:28:34,514 - INFO - Extraction completed. 105613 rows loaded.
+2025-08-20 17:28:34,515 - INFO - === Step 2: Transform ===
+2025-08-20 17:28:47,402 - INFO - Transformation completed. 28326 rows processed.
+2025-08-20 17:28:47,402 - INFO - === Step 3: Analyze ===
+2025-08-20 17:28:53,319 - INFO - Analysis completed successfully.
+2025-08-20 17:28:53,332 - INFO - Data dictionary saved to data\reference-tables\data_dictionary_analyzed.csv
+2025-08-20 17:28:53,332 - INFO - === Step 4: Evaluate ===
+2025-08-20 17:28:55,334 - INFO - Evaluation completed successfully.
+2025-08-20 17:28:55,334 - INFO - === Step 5: Visualize ===
+2025-08-20 17:28:56,493 - INFO - Visualization completed successfully.
+2025-08-20 17:28:56,494 - INFO - Pipeline complete!
